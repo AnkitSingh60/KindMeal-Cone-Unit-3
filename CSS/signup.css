@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  background-color: rgba(196, 190, 190, 0.445);
+}
+.mainDiv {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+  }
+  .DivContainer {
+      height: 700px;
+      width: 600px;
+      background-color: white;
+      position: relative;
+      border-radius: 10px;
+  }
+  
+  #LogoDiv {
+      width: 500px;
+      margin-top: 25px;
+      height: 100px;
+      margin-left: 8%;
+      border: white solid;
+  }
+  .lgo {
+      width: 300px;
+      margin-left: 100px;   
+  }
+  #LogoDiv > h1,
+  #LogoDiv > p {
+      color: rgb(32, 4, 4);
+      text-align: center;
+      font-weight: bolder;
+    }
+  #mainInff {
+      width: 500px;
+      display: flex;
+      margin-top: 100px;
+      height: 180px;
+      border-radius: 15px;
+      margin-left: 45px;
+      border: 1px solid;
+  }
+  #mainInf {
+      width: 500px;
+      height: 220px;
+      display: flex;
+      border-radius: 15px;
+      border: 1px solid;
+      margin-top: 10px;
+      margin-left: 45px;
+    /* border: 2px solid red; */
+  }
+
+ 
+  .inff {
+      float: left;
+      margin-left: 5px;
+      margin-top: 20px;
+      width: 250px;
+      color: rgb(66, 66, 66);
+      border: white solid;
+      height: 180px;
+    /* border: 2px solid red; */
+  }
+
+  
+  .inf {
+      text-align: left;
+      width: 280px;
+      color: rgb(66, 66, 66);
+      height: 180px;
+      margin-top: 20px;
+  }
+  .h31 {
+      margin-left: 40px;
+      height: 30px;
+      border: white solid;
+      width: 200px;
+      text-align: left;
+      float: left;
+    margin-top: 2px;
+  }
+  .h32 {
+      text-align: left;
+      height: 30px;
+      width: 200px;
+      float: left;
+      border: white solid;
+      margin-left: 160px;
+  }
+
+  

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  background-color: rgba(196, 190, 190, 0.445);
+}
+.DivImgs{
+    width: 300px;
+}
+
+.Divlogin {
+    height: 70%;
+    width: 30%;
+    position: absolute;
+    left: 450px;
+    margin-top: 80px;
+  }
+
+  .Divmylogin {
+      border-radius: 30px;
+      width: 450px;
+      height: 500px;
+      text-align: center;
+      background-color: white;
+      position: relative;
+      padding: 30px;
+
+  }
+
+  input {
+    width: 50%;
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  #lgbtn {
+      height: 40px;
+    width: 40%;
+    font-weight: bold;
+    color: white;
+    background-color: #0df033;
+    font-size: 25px;
+    border: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .facbukbtn {
+    width: 270px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #2a60d3;
+    margin-top: 50px;
+    margin-left: 10%;
+    cursor: pointer;
+  }
+  
+  .flg{
+    width: 12%;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+  }
+  .h11 {
+    font-size: 18px;
+    margin-top: 35px;
+    color: rgb(48, 47, 47);
+    float: left;
+    cursor: pointer;
+  }
+  .h22 {
+    font-size: 18px;
+    margin-top: 35px;
+    color: rgb(48, 47, 47);
+    text-align: right;
+    float: right;
+    cursor: pointer;
+  }

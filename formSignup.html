@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eb173574ae.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="./img/kindmlLOGOTab.png">
+    <title>Signuppage</title>
+    <link rel="stylesheet" href="CSS/formSignup.css">
+</head>
+<body>
+        </div>
+        <div id="FullNav"></div>
+    <div id="mainDiv">
+        <div class="leftBox">
+            <div class="dv1"><img src="./img/hotlres.png">
+                <h3><a>Food Lover Sign Up</a></h3>
+            </div>
+            <div class="dv2"><img src="./img/fudLvr.png">
+                <h3><a>Restaurant Sign Up</a></h3>
+            </div>
+            <div class="dv3">
+                <h2>Why KindMeal ?</h2>
+                <ul>
+                    <li>Exclusive meat-free deals</li>
+                    <li>Share yummy food moments</li>
+                    <li>Meet friendly food lovers</li>
+                    <li>Discover cool restaurants</li>
+                    <li>Email updates on tasty deals</li>
+                    <li>Instant coupons & dining</li>
+                    <li>No upfront payment</li>
+                    <a href="">More about KindMeal »</a>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="rightBox">
+            <div class="text">
+                <h2 class="spc">Food Lover ? Sign Up Now or <a
+                        href="https://www.kindmeal.my/login.php?action=facebook">Login
+                        With Facebook</a></h2>
+                <p>Discover tasty meat-free meals and dine instantly — no coupon payment, booking or printing is
+                    required.
+
+                    KindMeal is a fun, exciting and cool new way for you to show your compassion towards animals. We
+                    collaborate with kind restaurants and cafes across the nation to bring you delicious meat-free foods
+                    that will
+                    not only help save precious animal lives, but improve your health and save your money at the same
+                    time!
+                </p>
+            </div>
+            <form class="form" id="form">
+                <div class="form-value">
+                    <label>Your Name</label>
+                    <input class="inpp" type="text" name="" id="firstname" placeholder="First name">
+                    <input class="inpp" type="text" name="" id="lastname" placeholder="Last name">
+                </div>
+                <div class="form-value">
+                    <label>Email</label>
+                    <input class="InpX" type="email" name="" id="email" placeholder="Email" style="width: 400px;" autocomplete="off">
+                </div>
+                <div class="form-value">
+                    <label>Password</label>
+                    <input class="InpXX" type="text" name="" id="password" placeholder="Password" style="width: 350px;" autocomplete="off">
+                </div>
+                <div class="form-value">
+                    <label>Username</label>
+                    <input class="InpXX" type="text" name="" id="username" placeholder="Uesrname" style="width: 350px;">
+                </div>
+                <div>
+                    I agree to KindMeal.my's Terms & Conditions <input class="chkBx" type="checkbox" id="checkbox" value="checkbox">
+                </div>
+            </form>
+            <button class="joinNow" onclick="JoinNow()">Join Now</button>
+        </div>
+    </div>
+    <div id="environmentLogo">
+        <img src="./img/envrmnt.png" alt="logo">
+    </div>
+    <div id="FooterDiv"></div>
+</body>
+</html>
+<script src="./Scripts/formSignup.js"></script>
+<script type="module">
+    import navbar from "./Components/navbar.js"
+    // console.log('navbar:', navbar)
+    var appnd = document.getElementById("FullNav");
+    appnd.innerHTML=navbar();
+</script>
+<!-- exporting Footer -->
+<script type="module">
+    import footer from "./Components/footer.js"
+    // console.log('footer:', footer)
+    var footerDiv = document.getElementById("FooterDiv")
+    footerDiv.innerHTML=footer()
+    </script>

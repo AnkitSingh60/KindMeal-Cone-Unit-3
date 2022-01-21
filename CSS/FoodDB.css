@@ -1,0 +1,111 @@
+.fstWrd{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    /* border: 2px solid red; */
+}
+#AboutRes{
+    background: rgba(230,230,230,255)
+}
+#mainbody,#top{
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+}
+a:hover{
+  text-decoration: none;
+}
+.gry{
+    color: rgb(167, 167, 167);
+}
+
+.srchh{
+    border-radius: 5px;
+    margin: 2%;
+    color: rgb(136, 136, 136);
+    padding: 0.9%;
+    border: 1px solid rgb(226, 226, 226);
+    font-size: 17px;
+}
+
+#top>button{
+    width: 16%;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0.9%;
+    cursor: pointer;
+    /* border: 2px solid red; */
+}
+
+#search{
+    background-color: rgba(245,56,56,255);
+}
+
+#browse{
+    margin-left: 10px;
+    background-color: rgb(182, 235, 103);
+}
+
+#imgbox>img{
+    width: 100%;
+}
+
+.boxss{
+    display: flex;
+    gap: 6%;
+    flex-wrap: wrap;
+}
+
+.div1{
+    margin: 2% 0px;
+}
+
+#Div3{
+    width: 100%;
+}
+
+#Div3>div{
+    width: 46.5%;
+    height: 530px;
+    border-radius: 9px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#fudImz{
+    cursor: pointer;
+    height: 302px;
+    width: 100%;
+    border-radius: 10px ;
+}
+
+ .spcing{
+     padding: 2%;
+ }
+
+  .cpnBtn{
+      background-color: tomato;
+      margin-left: 42px;
+      padding: 1.9%;
+      width: 80%;
+      letter-spacing: 1px;
+      color: white;
+      font-size: 19px;
+      font-weight: bolder;
+      border-radius: 10px;
+      border: none;
+  }
+  .cpnBtn:hover{
+      background-color: orange;
+      cursor: pointer;
+  }
+
+ 
+
+
+
+ 
+
+
+

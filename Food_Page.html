@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/kindmlLOGOTab.png">
+    <title>All Food: Choose your fav food here</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="CSS/FoodDB.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div id="FullNav"></div>
+    <div id="AboutRes">
+        <div id="top">
+            <pre class="fstWrd"><h2 class="fstWrd"><span class="fstWrd">Meat-Free Deals </span> | <span class="lighter inline"> Restaurants In Malaysia</span></h2></pre> 
+            <p>Browse delicious meat-free, vegetarian deals from top restaurants and cafes! Just click on "Get Free Coupon" to obtain instant discounts and dine at the restaurants.<br/> No upfront payment, booking or printing is needed. If you share it on social media, you'll even DOUBLE your discount!</p>
+            <p>Download our <a href="https://www.kindmeal.my/mobile.htm">mobile app</a> now to easily get coupons and start dining in a few seconds. Effortlessly save lives, health, environment and money now!</p>
+            <form class="fstWrd"><input type="text" class="srchh" id="searchs" placeholder="Search Shop or Deal Name"></form><button id="search" class="fstWrd">Search Deals</button><button id="browse" class="fstWrd">Browse Restaurants</button>
+        </div>
+    </div>
+    <div id="mainbody">
+        <div id="imgbox">
+            <img src="https://www.kindmeal.my/images/campaigns/digirewards/digi-banner-1100x280.jpg" alt="logo">
+        </div>
+        <div id="Div3" class="boxss">
+        </div>
+    </div>
+    <div id="bottombody" style="text-align: center; margin-top: 130px;">
+        <img src="https://www.kindmeal.my/images/how_kindmeal_works.png" alt="logo">
+    </div>
+    <div id="FooterDiv"></div>
+</body>
+</html>
+<script src="./Scripts/Food_DB.js"></script>
+<script type="module">
+    import navbar from "./Components/navbar.js"
+    // console.log('navbar:', navbar)
+    var appnd = document.getElementById("FullNav");
+    appnd.innerHTML=navbar();
+</script>
+<!-- exporting Footer -->
+<script type="module">
+    import footer from "./Components/footer.js"
+    // console.log('footer:', footer)
+    var footerDiv = document.getElementById("FooterDiv")
+    footerDiv.innerHTML=footer()
+    </script>

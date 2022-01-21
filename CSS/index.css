@@ -1,0 +1,316 @@
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 82px;
+  align-items: center;
+  display: flex;
+}
+.socialPng {
+  height: 100%;
+}
+.pc1{
+  width: 60px;
+  cursor: pointer;
+}
+.socialPng > img {
+  height: 80%;
+}
+.DivImgs{
+  margin-left: 20px;
+  width: 350px;
+}
+
+#socialimg {
+  margin-left: 220px;
+}
+#loginDiv{
+  display: flex;
+  margin-left: 240px;
+  
+}
+#lgnbtn {
+  font-weight: bold;
+  background-color:#2f2ff1;
+  color: white;
+  border-radius: 7px;
+  margin-left: 5px;
+  padding: 4px 16px;
+  border: none;
+}
+
+#sgnipbtn {
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 8px;
+  border: none;
+  color: white;
+  padding: 4px 26px;
+  background-color: #686363;
+}
+
+#lgnbtn:hover {
+  background-color:  #5353b6;
+}
+
+#sgnipbtn:hover {
+  background-color: gray;
+}
+
+.greenNav {
+  height: 42px;
+  width: 100%;
+  background-color: #35d364;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.greenNav > a > li {
+  color: white;
+  font-weight: bold;
+  font-size: 17.5px;
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.greenNav > a {
+  text-decoration: none;
+}
+
+ .nv a {
+   color: white;
+   font-size: 17.5px; 
+   position: relative;
+   font-weight: bold;
+   margin-left: 10px;
+   list-style-type: none; 
+   text-decoration: none;
+   top: 10px;
+}
+
+#DivImgs {
+  margin-left: 6%;
+  height: 100%;
+}
+
+#DivImgs > img {
+  width: auto;
+  height: 100%;
+}
+.hmClr {
+  background-color: #22b372;
+  color: white;
+  margin-left: 57px;
+  padding: 10px 30px;
+  height: 100%;
+}
+.nv{
+  height: 100%;
+  margin-left: 57px;
+}
+
+.nv:hover {
+  height: 100%;
+  background-color: #22b372;
+}
+
+#last {
+  margin-right: 70px;
+}
+
+.imz > a > img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.slideshow-container {
+  margin: auto;
+  max-width: 85%;
+  position: relative;
+}
+
+#foodList {
+  margin-top: 15px;
+  margin: auto;
+  width: 86.3%;
+}
+
+#foodList > img {
+  width: 100%;
+}
+.foodBox {
+  margin: auto;
+  margin-top: 40px;
+  box-shadow: 0px 0px 6px #e0e0e0;
+  border: 1px solid #dddddd;
+  width: 86%;
+}
+.listed_items,
+.det {
+  justify-content: center;
+  display: flex;
+}
+.listed_items > div {
+  margin: 10px;
+  height: 190px;
+  width: 190px;
+}
+.listed_items > div > a > img {
+  width: 100%;
+}
+.det > div {
+  margin: 10px;
+  width: 190px;
+  text-align: center;
+  margin-top: 0px;
+}
+.det > div > a {
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+  color: gray;
+}
+.foodBox > h2 {
+  margin-left: 10px;
+  display: inline-block;
+}
+.foodBox > a {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#pet_finder > img {
+  width: 100%;
+  height: auto;
+}
+#dlBx {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.grnbx {
+  font-size: 20px;
+  height: 210px;
+  width: 230px;
+  border: 1px solid #d8d8d8;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 2px #cccccc;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  font-weight: bolder;
+  color: #666666;
+  margin: 10px;
+  vertical-align: middle;
+}
+.grnbx img {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  height: 100px;
+}
+.bxP {
+  font-weight: bolder;
+  font-size: 14px;
+  margin-top: 5px;
+  color: #888888;
+}
+
+#resPara {
+  margin-bottom: 0px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 55px;
+  color: #888888;
+}
+
+.joinBtn {
+  background-color: #f53838;
+  margin: auto;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 40px;
+  vertical-align: middle;
+  width: 450px;
+  margin-bottom: 80px;
+  line-height: 40px;
+  height: 100px;
+  font-weight: bolder;
+  font-size: 40px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.joinBtn:hover {
+  background-color: #d41f1f;
+}
+
+#smlLine {
+  line-height: 10px;
+  font-size: 16px;
+}
+
+#sponser {
+  margin-bottom: 40px;
+  text-align: center;
+  color: #888888;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#environmentLogo {
+  background-color: #ececec;
+  height: 250px;
+  text-align: center;
+  width: 100%;
+  margin-top: 0px;
+  vertical-align: top;
+}
+#environmentLogo > img {
+  width: auto;
+  height: 100%;
+}
+
+#futrDiv {
+  background-color: #2bb673;
+  margin-top: 10px;
+}
+#futr {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 22px;
+}
+#futr > div {
+  width: 17%;
+}
+#futr > div > a,
+#futr > div > p {
+  text-decoration: none;
+  color: white;
+}
+#futr > div > p {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+#futr > div > a > li {
+  font-size: 12px;
+  list-style-type: none;
+  font-weight: bold;
+  margin-top: 4px;
+}
+#futrDiv > p {
+  text-align: center;
+  color: white;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  font-weight: bold;
+  font-size: 12px;
+}
+

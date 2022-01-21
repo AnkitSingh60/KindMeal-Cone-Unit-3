@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/kindmlLOGOTab.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eb173574ae.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/coupn.css">
+    <title>Get free coupons here</title>
+</head>
+<body>
+<div id="FullNav"></div>
+<!-- **************************************************************************************************** -->
+
+   
+     <div class="mainDiv">
+         <div class="boxA" id="">
+             <div class="img1">
+                 <img src="./img/buonapitotable9.png" alt="img">
+             </div>
+             <div class="boxL">
+                <p class="ln">Normal price</p>
+                <h1 class="ln1">RM15.00</h1>
+                <p class="ln">&nbsp;&nbsp; & Above</p>
+             </div>
+             <div class="boxL">
+                <p class="ln">KindMeal Discount</p>
+                <h1 class="ln2">57% Off</h1>
+             </div>
+         </div>
+         <div class="boxB" >
+             <p class="p1"><b>No pre-payment or booking needed. Get coupon & dine instantly !</b></p>
+             <button id="btn1">Get FREE Coupon</button>
+              
+         </div>
+     </div>
+<div id="FooterDiv"></div>
+</body>
+</html>
+<script type="module">
+
+    var btn = document.getElementById("btn1");
+    btn.addEventListener('click',function(){
+        alert("Coupon applied ! ")
+    })
+
+
+
+    import navbar from "./Components/navbar.js"
+    // console.log('navbar:', navbar)
+    var appnd = document.getElementById("FullNav");
+    appnd.innerHTML=navbar();
+</script>
+
+<script type="module">
+import footer from "./Components/footer.js"
+console.log('footer:', footer)
+var footerDiv = document.getElementById("")
+</script>
+<!-- exporting Footer -->
+<script type="module">
+    import footer from "./Components/footer.js"
+    // console.log('footer:', footer)
+    var footerDiv = document.getElementById("FooterDiv")
+    footerDiv.innerHTML=footer()
+    </script>

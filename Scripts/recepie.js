@@ -6,7 +6,6 @@ async function get(){
     try{
         let response = await fetch(url);
         let items = await response.json();
-        //  console.log('items:', items.categories)
         let allFood = items.categories;
         console.log('allFood:', allFood)
         display(allFood)

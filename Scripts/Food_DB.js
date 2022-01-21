@@ -138,7 +138,7 @@ div.innerHTML = `<div  id="fudImz" style="background-image: url(${MyApiMockServe
      <span class="gry" style="font-size: 14px;">${MyApiMockServer[i].Place}</span>
  </div>
 <p class="spcing" style="margin: 3px 3px 7px 3px;">${MyApiMockServer[i].Detail}</p>
-<button class="fstWrd cpnBtn">Get FREE Coupon</button>
+<button id="btnGet" class="fstWrd cpnBtn">Get FREE Coupon</button>
 <div class=" hrT" 
     style="margin-bottom: 2px;
     height: 53px;
@@ -156,5 +156,10 @@ div.innerHTML = `<div  id="fudImz" style="background-image: url(${MyApiMockServe
          <h2 style="margin-top:5px;font-size:20px;margin-left:10px;color: rgb(120, 120, 120);  margin:2px">${MyApiMockServer[i].Expire}</h2>
      </div>`;
      body.append(div);
+
+     var btnn = document.getElementById("btnGet");
+     btnn.addEventListener('click',function(){
+         window.location.href="coupn.html"
+     })
 }
 window.onload =  fudRecp();

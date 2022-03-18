@@ -33,8 +33,8 @@ Project: make a clone of https://www.kindmeal.my/ site
   <img src="https://user-images.githubusercontent.com/93372584/159000874-d659ad73-1c1f-4a43-9655-48fa207cf196.png" style="width: 100%; max-width: 100%; height: auto" title="Click to enlarge picture" />
   
  ### End Notes 📑
-In this project we were tried to achieve a near to perfect clone of the original website as much as possible. This entire journey of has given us experiences and we
-have learned lots of things by applying to the real website and it gave us a lot of confidence.
+In this project i tried to achieve a near to perfect clone of the original website as much as possible. This entire journey of has given me experiences and i
+have learned lots of things by applying to the real website and it gave me a lot of confidence.
 
 
   ## Its a solo project done by me only❤️😇

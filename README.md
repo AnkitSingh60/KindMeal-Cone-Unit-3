@@ -25,6 +25,9 @@ Project: make a clone of https://www.kindmeal.my/ site
   
 - Item page
   <img src="https://user-images.githubusercontent.com/93372584/159000843-1d058a5a-c76c-42a9-a63c-221b15471cbc.png" style="width: 100%; max-width: 100%; height: auto" title="Click to enlarge picture" />
+  
+ - Order page
+  <img src="https://user-images.githubusercontent.com/93372584/159002001-cf3cb756-e42a-44ea-86f1-21219d8ecd64.png" style="width: 100%; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
 - Footer
   <img src="https://user-images.githubusercontent.com/93372584/159000874-d659ad73-1c1f-4a43-9655-48fa207cf196.png" style="width: 100%; max-width: 100%; height: auto" title="Click to enlarge picture" />
